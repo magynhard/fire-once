@@ -1,0 +1,54 @@
+{
+  "name": "fire-once",
+  "version": "0.0.1",
+  "description": "Javascript library that ensures that an irregularly but frequently event triggered function is fired only once at the given period.",
+  "exports": {
+    ".": "./src/fire-once/fire-once.js",
+    "./": "./src/fire-once/"
+  },
+  "main": "src/fire-once/fire-once.js",
+  "scripts": {
+    "test": "yarn test_browser && yarn test_node",
+    "test_node": "node node_modules/jasmine/bin/jasmine.js && yarn test_node_imports",
+    "test_node_imports": "node node_modules/jasmine/bin/jasmine.js spec/imports/fire-once-spec.cjs && node node_modules/jasmine/bin/jasmine.js spec/imports/fire-once-spec.mjs",
+    "test_browser": "yarn build && node node_modules/jasmine-browser-runner/bin/jasmine-browser-runner runSpecs --browser=chrome && git checkout . && git stash pop",
+    "build": "yarn doc && node scripts/build.js",
+    "doc": "node ./scripts/doc.js",
+    "playground": "node playground.js"
+  },
+  "files": [
+    "dist/fire-once.js",
+    "src/**/*",
+    "doc/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magynhard/fire-once.git"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "lucky-case": "^1.1.8",
+    "jasmine": "^4.2.1",
+    "jasmine-browser-runner": "^1.1.0",
+    "jsdoc": "^3.6.10",
+    "jsdoc-to-markdown": "^7.1.1",
+    "terser": "^5.31.1",
+    "tmp": "^0.2.1",
+    "yarn-upgrade-all": "^0.7.1"
+  },
+  "keywords": [
+    "fire",
+    "period",
+    "event",
+    "once",
+    "performance",
+    "browser"
+  ],
+  "author": "Matthäus J. N. Beyrle <fire-once.npm@mail.magynhard.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/magynhard/fire-once/issues"
+  },
+  "homepage": "https://github.com/magynhard/fire-once#readme"
+}

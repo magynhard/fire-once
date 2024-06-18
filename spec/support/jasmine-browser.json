@@ -1,0 +1,15 @@
+{
+  "srcDir": "/",
+  "srcFiles": [
+    "dist/fire-once.min.js"
+  ],
+  "specDir": "spec",
+  "specFiles": [
+    "**/*[Bb]rowser[Ss]pec.?(m)js"
+  ],
+  "helpers": [
+    "helpers/**/*.js"
+  ],
+  "stopSpecOnExpectationFailure": false,
+  "random": true
+}
