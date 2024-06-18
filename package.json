@@ -1,6 +1,6 @@
 {
   "name": "fire-once",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Javascript library that ensures that an irregularly but frequently event triggered function is fired only once at the given period.",
   "exports": {
     ".": "./src/fire-once/fire-once.js",
