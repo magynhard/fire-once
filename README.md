@@ -18,7 +18,6 @@
 
 * [Examples](#examples)
 * [Installation](#installation)
-* [Usage examples](#usage)
 * [Documentation](#documentation)
 * [Contributing](#contributing)
 
