@@ -5,7 +5,7 @@
   ],
   "specDir": "spec",
   "specFiles": [
-    "**/*[Bb]rowser[Ss]pec.?(m)js"
+    "**/*-[sS]pec.js"
   ],
   "helpers": [
     "helpers/**/*.js"
