@@ -98,7 +98,7 @@ for(let build_key of Object.keys(builds)) {
         const terser_command = `node node_modules/terser/bin/terser ${build.destination_file} -m -c evaluate=false -o ${build.destination_min_file}`;
         console.log(terser_command);
         await exec_prom(terser_command).then(() => {
-            prependToFile(build.destination_min_file, releaseTemplate());
+            // done
         });
     })();
 }

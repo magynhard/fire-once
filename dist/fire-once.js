@@ -3,8 +3,8 @@
  *
  * Javascript library that ensures that an irregularly but frequently event is fired only once at the given period.
  *
- * @version 0.0.2
- * @date 2024-06-18T11:30:00.380Z
+ * @version 0.0.6
+ * @date 2024-06-20T07:42:58.952Z
  * @link https://github.com/magynhard/fire-once
  * @author Matthäus J. N. Beyrle
  * @copyright Matthäus J. N. Beyrle
