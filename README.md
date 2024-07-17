@@ -1,6 +1,6 @@
 # fire-once
 
-[![npm package](https://img.shields.io/npm/v/fire-once?color=default&style=plastic&logo=npm)](https://www.npmjs.com/package/fire-once)
+[![npm package](https://img.shields.io/npm/v/fire-once?color=default&style=plastic&logo=npm&logoColor=red)](https://www.npmjs.com/package/fire-once)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/magynhard/fire-once?color=default&label=browser&logo=javascript&style=plastic)](https://github.com/magynhard/fire-once/releases)
 ![downloads](https://img.shields.io/npm/dt/fire-once?color=blue&style=plastic)
 [![License: MIT](https://img.shields.io/badge/License-MIT-gold.svg?style=plastic&logo=mit)](LICENSE)
